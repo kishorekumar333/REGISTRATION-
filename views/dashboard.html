@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DAHBOARD</title>
+    <style>
+        ul {
+            float: right;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="users.html">Registered Users</a></li>
+            <button onclick="logout()">Logout</button>
+    </nav>
+    <h1 id="name"></h1>
+    <img src="../views/avatar.png" alt="avatar" width="10%" height="10%" style="float: left;" onclick="changephoto()">
+</body>
+<script src="../scripts/dashboard.js">
+
+</script>
+
+</html>

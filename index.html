@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>DASHBORAD</h1>
+    <a href="./views/register.html">register</a>
+    <a href="./views/login.html">login</a>
+    <script>
+        var customers = [
+            {
+                id: 0,
+                name: "kishore",
+                email: "kishore.kumar123@gmail.com",
+                password: "kumar123@",
+                designation: "fresher",
+                country: "India",
+                state: "telangana",
+                city: "hyderabad"
+            },
+            {
+                id: 1,
+                name: "satish",
+                email: "satish@gmail.com",
+                password: "satish123",
+                designation: "fresher",
+                country: "India",
+                state: "telangana",
+                city: "hyderabad"
+            },
+            {
+                id: 3,
+                name: "wasim",
+                email: "wasim@gmail.com",
+                password: "wasim123",
+                designation: "fresher",
+                country: "India",
+                state: "telangana",
+                city: "hyderabad"
+            }
+        ]
+        sessionStorage.setItem('users', JSON.stringify(customers));
+    </script>
+</body>
+
+</html>

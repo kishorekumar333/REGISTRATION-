@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="errortext"></div>
+    <div class="block">
+        <div>
+            <input type="text" name="login_name" id="login_name" placeholder="Name">
+        </div>
+        <div>
+            <input type="password" name="login_pass" id="login_pass" placeholder="Password">
+        </div>
+        <div>
+            <a href="register.html">Signup</a>
+            <button onclick="dash()" id="login">Login</button>
+        </div>
+        <div id="time"></div>
+    </div>
+    <script src="../scripts/login.js">
+        // var users = sessionStorage.getItem('users');
+        // users = JSON.parse(users);
+        // var session_name = "";
+        // var session_pass = "";
+        // function dash() {
+        //     var loginname = document.getElementById('login_name').value;
+        //     var loginpass = document.getElementById('login_pass').value;
+        //     var isExist = false;
+        //     for (let i = 0; i < users.length; i++) {
+        //         session_name = users[i].name;
+        //         session_pass = users[i].password;
+        //         if (loginname === session_name && loginpass === session_pass) {
+        //             sessionStorage.setItem("username", session_name);
+        //             isExist = true;
+        //             break;
+        //         }
+        //     }
+        //     if (isExist) {
+        //         window.location.href = 'dashboard.html';
+        //     } else {
+        //         document.getElementById('errortext').innerHTML = 'Wrong successfully';
+        //     }
+        // }
+    </script>
+</body>
+
+</html>

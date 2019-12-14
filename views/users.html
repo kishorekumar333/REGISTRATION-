@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>All USers</title>
+    <style>
+        .table {
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+        tr:nth-child(odd) {
+            background-color: tomato;
+            border: 1px solid;
+        }
+        tr {
+            background-color: grey;
+        }
+        .td {
+            padding: 15px;
+            border-collapse: collapse;
+            width: auto;
+        }
+        i {
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="table"></table>
+    <h2 id="empty"></h2>
+    <a href="dashboard.html" id="dashboard" >go to dashboard</a>
+    <script src="../scripts/dashboard.js"></script>
+    <script src="../scripts/users.js">
+        // var users = sessionStorage.getItem('users');
+        // var users = JSON.parse(users);
+        // var table = document.getElementById('table');
+        // table.className = "table";
+        // for (let i = 0; i < users.length; i++) {
+        //     var tr = document.createElement('TR');
+        //     for (let j in users[i]) {
+        //         var td = document.createElement('TD');
+        //         var data = document.createTextNode(users[i][j]);
+        //         td.classList.add('td');
+        //         td.appendChild(data);
+        //         tr.appendChild(td);
+        //     }
+        //     table.appendChild(tr);
+        // }
+    </script>
+</body>
+
+</html>
